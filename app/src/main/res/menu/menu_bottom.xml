@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/migranja"
+        android:title="@string/menu_migranja" />
+    <item
+        android:id="@+id/proveedores"
+        android:title="@string/menu_proveedores" />
+    <item
+        android:id="@+id/consumos"
+        android:title="@string/menu_consumos" />
+    <item
+        android:id="@+id/granjas"
+        android:title="@string/menu_granjas" />
+</menu>

@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Ganaderias/app/src/main/res/layout/activity_home_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Ganaderias/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Ganaderias/app/src/main/res/layout/activity_registro.xml" value="0.27447916666666666" />
+        <entry key="..\:/Ganaderias/app/src/main/res/layout/container_fragment.xml" value="0.2734375" />
+        <entry key="..\:/Ganaderias/app/src/main/res/layout/header_toolbar.xml" value="0.2734375" />
+        <entry key="..\:/Ganaderias/app/src/main/res/layout/menu_navegacion_button.xml" value="0.2734375" />
+        <entry key="..\:/Ganaderias/app/src/main/res/menu/menu_bottom.xml" value="0.2734375" />
       </map>
     </option>
   </component>
