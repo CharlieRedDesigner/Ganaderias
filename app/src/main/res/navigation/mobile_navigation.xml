@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/migranja2">
+
+    <fragment
+        android:id="@+id/migranja2"
+        android:name="com.citas.ganaderias.Fragments.Migranja"
+        android:label="fragment_migranja_fragment"
+        tools:layout="@layout/fragment_migranja_fragment" >
+        <action
+            android:id="@+id/action_migranja2_to_proveedores2"
+            app:destination="@id/proveedores2" />
+    </fragment>
+    <fragment
+        android:id="@+id/proveedores2"
+        android:name="com.citas.ganaderias.Fragments.Proveedores"
+        android:label="fragment_proveedores"
+        tools:layout="@layout/fragment_proveedores" >
+        <action
+            android:id="@+id/action_proveedores2_to_consumos2"
+            app:destination="@id/consumos2" />
+    </fragment>
+    <fragment
+        android:id="@+id/consumos2"
+        android:name="com.citas.ganaderias.Fragments.Consumos"
+        android:label="fragment_consumos"
+        tools:layout="@layout/fragment_consumos" >
+        <action
+            android:id="@+id/action_consumos2_to_granjas2"
+            app:destination="@id/granjas2" />
+    </fragment>
+    <fragment
+        android:id="@+id/granjas2"
+        android:name="com.citas.ganaderias.Fragments.Granjas"
+        android:label="fragment_granjas"
+        tools:layout="@layout/fragment_granjas" />
+</navigation>
