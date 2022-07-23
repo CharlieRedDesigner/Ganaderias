@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Ganaderias</string>
+    <string name="app_name">Ganaderia2022</string>
+    <string name="email_acceso">Introduce tu email</string>
+    <string name="pass_acceso">Teclea tu contraseña</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="bt_registro">Registro</string>
+
+    <string name="menu_migranja">Mi granja</string>
+    <string name="menu_proveedores">Proveedores</string>
+    <string name="menu_consumos">Consumos</string>
+    <string name="menu_granjas">Granjas</string>
+    <!-- Fragment -->
+    <string name="txt_tipo_ganado">Indica el tipo de Ganado</string>
+    <!--Page Register-->
+    <string name="titulo_registro">Crear nueva Granja</string>
+    <!--Menu profile-->
+    <string name="misdatos_toolbar">Mis datos</string>
+    <string name="configuracion_toolbar">Configuración</string>
+    <string name="salir_menu_toolbar">Salir</string>
+
 </resources>
